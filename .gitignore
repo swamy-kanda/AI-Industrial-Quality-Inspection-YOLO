@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+cv_env/
+
+# Dataset
+dataset/
+
+# Training results and weights
+runs/
+*.pt
+
+# Inspection images
+inspection_results/
+
+# Kaggle credentials
+kaggle.json
+
+# IDE
+.vscode/
+git add -f models/best.pt
+# OS
+Thumbs.db
+.DS_Store
